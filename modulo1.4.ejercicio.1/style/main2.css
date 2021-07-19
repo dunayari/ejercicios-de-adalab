@@ -1,0 +1,14 @@
+.container {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  background-color: blueviolet;
+  flex-direction: row;
+}
+.item {
+  box-sizing: border-box;
+  border: 2px solid chartreuse;
+  background-color: chocolate;
+  height: 100%;
+  width: 7%;
+}
