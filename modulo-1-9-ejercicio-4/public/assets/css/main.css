@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+.header {
+  height: 75px;
+  border: 2px solid rebeccapurple; }
+  @media all and (min-width: 768px) {
+    .header {
+      height: 100px; } }
+  @media all and (min-width: 1280px) {
+    .header {
+      height: 110px; } }
+
+/*# sourceMappingURL=main.css.map */
