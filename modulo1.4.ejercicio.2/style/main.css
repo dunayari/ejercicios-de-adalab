@@ -1,8 +1,13 @@
 .container {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  background-color: lightblue;
 }
 .item {
+  box-sizing: border-box;
+  border: 2px solid;
   width: 200px;
   height: 100px;
+  background-color: lightcoral;
 }
