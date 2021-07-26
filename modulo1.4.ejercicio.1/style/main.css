@@ -2,8 +2,8 @@
   width: 500px;
   height: 500px;
   display: flex;
-  background-color: blueviolet;
   flex-direction: column;
+  background-color: blueviolet;
 }
 .item {
   box-sizing: border-box;
