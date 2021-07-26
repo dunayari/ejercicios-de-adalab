@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 100px;
+  border: 0 20px 0 20px;
+  background-color: aqua;
+  align-items: center;
+  border-box: 2px;
+}
