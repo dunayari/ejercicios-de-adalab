@@ -6,11 +6,25 @@
 .header {
   height: 75px;
   border: 2px solid rebeccapurple; }
+  .header--title {
+    color: blue; }
   @media all and (min-width: 768px) {
     .header {
       height: 100px; } }
   @media all and (min-width: 1280px) {
     .header {
       height: 110px; } }
+
+.main__principal {
+  height: 50%; }
+  .main__principal--text {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+.main__second--button {
+  background-color: red;
+  border-radius: 5px;
+  height: 45px; }
 
 /*# sourceMappingURL=main.css.map */

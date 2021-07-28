@@ -1,6 +1,9 @@
 .header {
   height: 75px;
   border: 2px solid rebeccapurple;
+  &--title {
+    color: blue;
+  }
   @media all and (min-width: 768px) {
     height: 100px;
   }

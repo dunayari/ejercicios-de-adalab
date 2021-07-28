@@ -1,0 +1,17 @@
+.main {
+  &__principal {
+    height: 50%;
+    &--text {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+  }
+  &__second {
+    &--button {
+      background-color: red;
+      border-radius: 5px;
+      height: 45px;
+    }
+  }
+}
