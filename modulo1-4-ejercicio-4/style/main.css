@@ -1,0 +1,19 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  
+}
+.container {
+  width: 500px;
+}
+.container1{
+  width: 100%;
+}
+
+.foto{
+  width: 80px;
+  height: 100px;
+}
+
