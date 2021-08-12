@@ -10,9 +10,6 @@ let avatar = document.querySelector(".user__avatar");
 
 avatar.innerHTML = userAvatar.innerHTML;*/
 
-let userAvatar = "";
-let user = document.querySelector(".js_user");
-
-const newAvatar = user;
-const newAvatar = userAvatar || DEFAULT_AVATAR;
-user.innerHTML += `<img src="${newAvatar}" alt="profile image" class="user__avatar js_user_avatar" />`;
+//userAvatar = "";
+let user = document.querySelector(".js_user__avatar");
+user.src = userAvatar || DEFAULT_AVATAR;
