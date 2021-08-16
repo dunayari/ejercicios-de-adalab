@@ -1,0 +1,7 @@
+.second_button {
+  padding: 1px;
+  border: solid 10px red;
+}
+.hidden {
+  opacity: 0.5;
+}
