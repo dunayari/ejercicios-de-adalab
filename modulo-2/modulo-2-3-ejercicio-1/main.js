@@ -10,6 +10,6 @@ let avatar = document.querySelector(".user__avatar");
 
 avatar.innerHTML = userAvatar.innerHTML;*/
 
-//userAvatar = "";
+userAvatar = "";
 let user = document.querySelector(".js_user__avatar");
 user.src = userAvatar || DEFAULT_AVATAR;

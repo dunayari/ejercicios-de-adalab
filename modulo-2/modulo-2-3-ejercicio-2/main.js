@@ -1,5 +1,5 @@
 "use strict";
-const myName = "Iván";
+const myName = "Carlos";
 
 if (myName === "Ana" || myName === "Daniela") {
   console.log(`Bienvenida: ${myName}`);
