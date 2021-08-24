@@ -1,0 +1,10 @@
+.button {
+  height: 35px;
+  width: 140px;
+  border: solid 2px black;
+  border-radius: 4px;
+}
+.color2 {
+  background-color: blue;
+  border-color: blueviolet;
+}
