@@ -1,0 +1,29 @@
+body {
+  background-color: #ffcc00;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.face {
+  font-size: 80px;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+
+.review {
+  text-align: center;
+}
+
+.button {
+  background-color: blue;
+  color: white;
+  font-weight: bolder;
+}
+.select {
+  padding: 1px 5px 1px 5px;
+  height: 21px;
+  width: 58px;
+}
