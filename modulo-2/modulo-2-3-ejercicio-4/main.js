@@ -1,12 +1,14 @@
 "use strict";
-let humanAge = 4;
-let dogAge = 0;
+let dogAge = 4;
+let humanAge;
 
-if (humanAge === 1) {
-  dogAge = 15;
-} else if (humanAge === 2) {
-  dogAge = 9;
-} else if (dogAge <= 3) {
-  dogAge = `5*${humanAge}`;
+if (dogAge <= 1) {
+  humanAge = 15;
+  console.log("La edad humana es" + humanAge);
+} else if (dogAge > 1 && dogAge >= 2) {
+  humanAge = 9;
+  console.log("La edad humana es" + humanAge);
+} else {
+  humanAge = dogAge * 5;
+  console.log("La edad humana es" + humanAge);
 }
-console.log(`La edad de mi perro es ${dogAge}`);

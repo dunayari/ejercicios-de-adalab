@@ -1,0 +1,14 @@
+"use strict";
+const numbers = [1, 2, 3];
+const firstNewItem = document.createElement("li");
+const newContent = document.createTextNode(numbers[0]);
+firstNewItem.appendChild(newContent);
+console.log(firstNewItem);
+const secondNewItem = document.createElement("li");
+const secondNewContent = document.createTextNode(numbers[1]);
+secondNewItem.appendChild(secondNewContent);
+console.log(secondNewItem);
+const thirdNewItem = document.createElement("li");
+const thirdNewContent = document.createTextNode(numbers[2]);
+thirdNewItem.appendChild(thirdNewContent);
+console.log(thirdNewItem);

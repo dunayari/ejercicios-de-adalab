@@ -5,4 +5,4 @@ function getEl(selector) {
 }
 
 const mainTitle = getEl(".main_title");
-console.log(main_title);
+console.log(mainTitle);
