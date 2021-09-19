@@ -7,8 +7,7 @@ const users = [
   { name: "Inmaculada", isPremium: false, pin: 8998 },
 ];
 
-let pares = users["pin"].filter(function (user) {
-  return user % 2 === 0;
-});
-
-console.log(pares);
+const numerosPares = users
+  .filter((user) => user.pin % 2 === 0)
+  .map((users) => users.name);
+console.log(numerosPares);
