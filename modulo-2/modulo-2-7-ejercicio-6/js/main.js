@@ -9,7 +9,7 @@ function handleMessageForFilm(ev) {
   favorites = favoritesFilms.value;
 
   for (const eachFilm of favorites) {
-    return (answer.innerHTML += `Me encantó ${favorites}, tenemos mucho en común`);
+    answer.innerHTML += `Me encantó ${favorites}, tenemos mucho en común`;
   }
 }
 

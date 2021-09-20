@@ -38,10 +38,10 @@ console.log(`El número de adalabers es: ${countAdalabers()}`);
 function averageAge() {
   let sumAge = 0;
 
-  for (let i = 0; i <= adalabers.length - 1; i++) {
-    let adalabersAge = adalabers[i].age;
+  for (let eachAge of adalabers) {
+    eachAge = adalabers.age;
 
-    sumAge = sumAge + adalabersAge;
+    sumAge = sumAge + eachAge;
   }
 
   const average = sumAge / adalabers.length;
@@ -55,9 +55,9 @@ function theYoungest() {
   let youngest = adalabers[youngAdalaber].age;
   let youngestName = adalabers[youngAdalaber].name;
 
-  for (let i = 1; i < adalabers.length; i++) {
-    if (youngest > adalabers[i].age) {
-      youngest = adalabers[i].name;
+  for (const young of adalabers) {
+    if (young > adalabers.age) {
+      youngest = adalaber.name;
     }
   }
   return youngestName;
@@ -66,10 +66,9 @@ console.log(`${theYoungest()}`);
 
 function countDesigners() {
   let designers = 0;
-  let numberOfDesigners = adalabers[designers].job;
 
-  for (let i = 0; i < adalabers.length; i++) {
-    if (adalabers[i].job === 'diseñadora') {
+  for (let design of adalabers) {
+    if (design.job === 'diseñadora') {
       designers = designers + 1;
     }
   }
