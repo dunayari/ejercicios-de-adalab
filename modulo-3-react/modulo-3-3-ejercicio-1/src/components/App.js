@@ -28,6 +28,23 @@ function App() {
   const handleCerveza = (ev) => {
     setCerveza(ev.target.checked);
   };
+
+  const render = () => {
+    if (patatas && cebolla && huevos && !cerveza && !macarrones && !nueces) {
+      return 'Eres una persona concebollista';
+    } else if (
+      !patatas &&
+      !cebolla &&
+      !huevos &&
+      macarrones &&
+      nueces &&
+      cerveza
+    ) {
+      return 'Eres un robot';
+    } else {
+      return '';
+    }
+  };
   /*const handleTortillaEnCondiciones = (ev) => {
     setPatatas + setHuevos + setCebolla(ev.target.checked);
   };*/
@@ -85,6 +102,7 @@ function App() {
           checked={cerveza}
           onChange={handleCerveza}
         />
+        <p>{render()}</p>
       </form>
     </div>
   );
